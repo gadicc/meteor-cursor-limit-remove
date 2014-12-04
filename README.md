@@ -11,14 +11,14 @@ take to complete the create/destroy lifecycle.
 
 ```
 lifetime of b00400 was 10ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00368 was 56ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00278 was 66ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00221 was 73ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00196 was 84ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00172 was 102ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00134 was 130ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00130 was 160ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:31 lifetime of b00123 was 306ms
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:37 render apple
-meteor-cursor-limit-remove.js?57ad41f89cafdc30ce57a8bc6c350864aea88589:38 total time: 26408ms
+lifetime of b00368 was 56ms
+lifetime of b00278 was 66ms
+lifetime of b00221 was 73ms
+lifetime of b00196 was 84ms
+lifetime of b00172 was 102ms
+lifetime of b00134 was 130ms
+lifetime of b00130 was 160ms
+lifetime of b00123 was 306ms
+render apple
+total time: 26408ms
 ```
