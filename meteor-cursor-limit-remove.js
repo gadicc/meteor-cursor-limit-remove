@@ -22,14 +22,18 @@ if (Meteor.isClient) {
   };
 
   var diffRecord = 0;
+  var lastDiff = 0;
   Template.item.destroyed = function() {
     var diff;
     time = Date.now();
     diff = time - lastCreateTime;
-    if (diff > diffRecord * 1.1) {
+    // Having this run every time also shows interesting results
+    if (/* 1 || */ diff > diffRecord * 1.1) {
       diffRecord = diff;
-      console.log('lifetime of ' + this.data.name + ' was ' + diff + 'ms');
+      console.log('lifetime of ' + this.data.name + ' was ' + diff + 'ms' +
+        ', previous diff was ' + lastDiff + 'ms');
     }
+    lastDiff = diff;
 //    console.log('destroy', this.data.name);
   };
 

@@ -10,15 +10,17 @@ take to complete the create/destroy lifecycle.
 ## Sample output
 
 ```
-lifetime of b00400 was 10ms
-lifetime of b00368 was 56ms
-lifetime of b00278 was 66ms
-lifetime of b00221 was 73ms
-lifetime of b00196 was 84ms
-lifetime of b00172 was 102ms
-lifetime of b00134 was 130ms
-lifetime of b00130 was 160ms
-lifetime of b00123 was 306ms
+lifetime of b00400 was 14ms, previous diff was 0ms
+lifetime of b00370 was 48ms, previous diff was 3ms
+lifetime of b00303 was 54ms, previous diff was 17ms
+lifetime of b00272 was 60ms, previous diff was 26ms
+lifetime of b00222 was 68ms, previous diff was 40ms
+lifetime of b00220 was 76ms, previous diff was 43ms
+lifetime of b00205 was 91ms, previous diff was 43ms
+lifetime of b00174 was 113ms, previous diff was 80ms
+lifetime of b00127 was 139ms, previous diff was 100ms
+lifetime of b00044 was 193ms, previous diff was 136ms
+lifetime of b00003 was 402ms, previous diff was 190ms
 render apple
-total time: 26408ms
+total time: 26335ms
 ```
